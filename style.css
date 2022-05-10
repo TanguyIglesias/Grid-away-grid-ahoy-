@@ -11,11 +11,11 @@ body{
     
 }
 .section{
-    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    
-}
-
-.learn{
-  
+    justify-content: space-between;
+    border: 3px solid black;    
+ 
 }
